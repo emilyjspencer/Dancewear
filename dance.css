@@ -40,22 +40,13 @@
     align-items: center;
   }
   
-  #shopping-anchor {
-    margin: 50px;
-  }
-  
-  #science-anchor {
-    margin:50px;
-  }
-  
-  #product-anchor {
-    margin:50px;
-  }
+
   
   @media (max-width: 700px) {
     #header {
       position: absolute;
     }
+  }
     
     #logo {
       display: block;
@@ -79,8 +70,8 @@
   .fa {
       padding: 20px;
       font-size: 30px;
-      width: 100px;
-      height: 150px;
+      width: 20px;
+      height: 20px;
       text-align: center;
       text-decoration: none;
     }
@@ -92,28 +83,28 @@
     
    
     .fa-facebook {
-      background: #3B5998;
+      background: rgb(230, 165, 230);
       color: white;
     }
     
    
     .fa-twitter {
-      background: #55ACEE;
+      background: rgb(150, 210, 238);
       color: white;
     }
   
     .fa-linkedin {
-      background: #007bb5;
+      background: #79f0e0;
       color: white;
     }
     
     .fa-youtube {
-      background: #bb0000;
+      background: #807d7d;
       color: white;
     }
     
     .fa-instagram {
-      background: #125688;
+      background: #695769;
       color: white;
     }
   
@@ -121,4 +112,10 @@
       display: block;
       padding: 8px;
       background-color: #dddddd;
+    }
+
+    #leap {
+        margin: auto;
+        height: 300px;
+        width: 200px;
     }
