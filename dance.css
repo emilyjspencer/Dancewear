@@ -107,6 +107,19 @@
       background: #695769;
       color: white;
     }
+
+    .fa-heart {
+      color: white;
+     
+    }
+
+    .fa-user {
+        color: white;
+    }
+
+    .fa-shopping-basket {
+        color: white;
+    }
   
     .nav-link {
       display: block;
@@ -117,5 +130,5 @@
     #leap {
         margin: auto;
         height: 300px;
-        width: 200px;
+        width: 240px;
     }
